@@ -888,6 +888,7 @@ htmlTable <- function(x,
 
   # Close table
   table_str <- sprintf("%s\n</table>", table_str)
+  table_str <- gsub("\t"," ", table_str)
 
   class(table_str) <- c("htmlTable", class(table_str))
   attr(table_str, "...") <- list(...)
