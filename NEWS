@@ -1,5 +1,9 @@
 NEWS for the Gmisc package
 
+Changes for 0.6.9
+-----------------
+* Freezing (and renaming) this package to use in older projects so I can have a copy of both the new Gmisc (> 1.0) and this one which won’t break my code.
+
 Changes for 0.6.8
 -----------------
 * Applied the DRY-documentation principle
